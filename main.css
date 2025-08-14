@@ -11,42 +11,18 @@ body {
 
 /* Header: */
 
-        /* NavBar: */
 
-            header nav h1 {
+            header h1 {
                 text-align: center;
             }
 
-            header nav h1 a{
+            header h1 a{
                 font-size: 50px;
                 color: black;
                 text-decoration: none;
             }
 
-            nav ul{
-                display: flex;
-                list-style: none;
-                justify-content: center;
-                gap: 1em;
-                padding: 0;
-            }
 
-            nav ul li{
-                font-size: 20px;
-            }
-
-            nav ul li a{
-                text-decoration: none;
-                color: black;
-                padding: 0 2em;
-                box-shadow: 0 2px 1px#F2C1858a;
-
-            }
-
-            .selecionado{
-                color: #F2C185;
-                transition: 0.3s;
-            }
 
         /* Carrosel: */
 
@@ -100,4 +76,13 @@ body {
                 color: #D9D7D7;
                 border: 1px solid #D9D7D7;
                 padding: 10px;
+            }
+
+/* main: ele.html */
+
+            /* img: */
+
+            .img-ele{
+                height: 200px;
+              margin: 4em;
             }
